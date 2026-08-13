@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.notunanancyowen.minecart.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "minecart_backport.refmap.json",
+  "mixins": [
+    "AbstractMinecartMixin"
+  ],
+  "client": [
+    "EntityRendererMixin",
+    "MinecartRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

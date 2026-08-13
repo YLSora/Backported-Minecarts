@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# Forge run directories
+run/
+run-data/
+
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+out/
+eclipse/
